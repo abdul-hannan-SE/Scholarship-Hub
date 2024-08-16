@@ -4,5 +4,6 @@ Run npm init => This will install all required dependencies mentioned in package
 If you download entire project there is no need to run npm init as node modules are attached with project
 
 # run 
-npm i /
+npm i 
+
 npm run dev
