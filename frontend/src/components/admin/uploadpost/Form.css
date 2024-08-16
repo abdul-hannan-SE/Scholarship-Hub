@@ -1,0 +1,117 @@
+/* admin-upload-post.css */
+
+.admin-upload-post-container {
+  max-width:200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.admin-upload-post-title {
+  margin-top: 100px;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.admin-upload-post-select-wrapper {
+  margin-bottom: 20px;
+
+
+}
+
+.admin-upload-post-select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.admin-upload-post-form-container {
+  background-color:#A5C9CF;
+  margin-top: 20px;
+  
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button-blue {
+  background-color:#1EB2A6;
+
+}
+
+.button-green {
+  background-color:#1EB2A6;
+}
+
+.button-auto-width {
+  width: auto;
+}
+
+.button-height {
+  height: 45px;
+}
+
+.button-rounded {
+  border-radius: 8px;
+}
+
+.margin-top-16 {
+  margin-top: 16px;
+}
+
+.admin-form-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.admin-form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.admin-form-input {
+  width: calc(100% - 12px);
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.admin-form-textarea {
+  width: calc(100% - 12px);
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.admin-form-checkbox {
+  margin-top: 8px;
+}
+
+.admin-form-submit {
+  margin-top: 16px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-form-submit:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.formtext{
+  color:black;
+  font-size: larger;
+  font-weight: bold;
+}

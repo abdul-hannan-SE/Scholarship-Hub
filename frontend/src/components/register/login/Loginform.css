@@ -1,0 +1,71 @@
+/* Loginform.css */
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/public/images/bglg.jpg');
+  background-size: cover;
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 80px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  padding: 30px;
+}
+
+.login-container h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #0e2745;
+}
+
+.form_control {
+  margin: 0; /* Removed margin bottom */
+}
+
+.form_control label {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 5px; /* Adjust this if needed */
+}
+
+.form_control input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0; /* Removed default margin */
+}
+
+form .submit {
+  margin-top: 60px;
+  width: 100%;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: #1EB2A6;
+  color: white;
+}
+
+form .submit:hover {
+  background-color: #348a83;
+  color: white;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link p {
+  margin: 0;
+}
+
+.submit {
+  margin: 0 auto;
+}

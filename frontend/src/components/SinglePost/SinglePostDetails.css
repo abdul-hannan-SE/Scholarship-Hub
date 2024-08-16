@@ -1,0 +1,98 @@
+.program-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .program-image {
+    margin-bottom: 20px;
+  }
+  
+  .program-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .program-info {
+    margin-bottom: 20px;
+  }
+  
+  .program-info p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .reviews {
+    margin-top: 20px;
+  }
+  
+  .review {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .review:last-child {
+    border-bottom: none;
+  }
+  
+  .creator-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .creator-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .creator-info p {
+    font-size: 16px;
+  }
+  
+  .add-review {
+    margin-top: 20px;
+  }
+  
+  .add-review textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .add-review button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-review button:hover {
+    background-color: #0056b3;
+  }
+
+  .star {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .selected {
+    color: #fdd835; /* Color for selected stars */
+  }
+  

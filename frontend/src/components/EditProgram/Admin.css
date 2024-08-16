@@ -1,0 +1,29 @@
+
+.admin-upload-post-container {
+    min-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .admin-upload-post-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .admin-upload-post-select-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .admin-upload-post-select-wrapper select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .admin-upload-post-form-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }

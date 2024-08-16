@@ -1,0 +1,110 @@
+.update-user-container {
+    max-width: 400px;
+    max-height: 93vh;
+    overflow-y: scroll;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 80px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    padding: 20px;
+  }
+  
+.update-user-container::-webkit-scrollbar {
+  display: none;
+}
+
+.update-user-container {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+  .bg{
+  padding-top: 1.5rem;
+  min-height: 100vh;
+    background-image: url('/public/images/bglg.jpg');
+    background-size: cover;
+  }
+  .update-user-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="password"],
+  input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color:#1EB2A6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color:#266d67;
+  }
+
+  .logbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    height: 2.2rem;
+    margin: 10px auto; /* Centered margin */
+    width: 85%; /* Width of the button */
+    max-width: 200px; /* Maximum width for the button */
+    border-radius: 5px;
+    background: #1EB2A6;
+    text-align: center; /* Center the text */
+  }
+.logbtn:hover {
+    background-color: #29827a;
+  }
+
+  .adminlog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    height: 2.2rem;
+    margin: 10px auto; /* Centered margin */
+    max-width: 200px; /* Maximum width for the button */
+    border-radius: 5px;
+    background: #1EB2A6;
+    float: inline-end;
+    margin-top: 25px;
+    margin-right: 45px;
+
+    text-align: center; /* Center the text */
+  }
+.adminlog:hover {
+    background-color: #29827a;
+  }
+  
