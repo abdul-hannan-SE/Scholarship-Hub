@@ -17,9 +17,9 @@ const reviewRoutes = require("./routes/reviewRoutes");
 const eligibilityCheckerRoutes = require("./routes/eligibility-checker");
 const { socketConnection } = require("./services/new-socket-io");
 
-//Atlas connection=> mongodb+srv://root:root@pakoppertunityhub.o7g7hv4.mongodb.net/?retryWrites=true&w=majority
+const URL= "mongodb+srv://root:root@pakoppertunityhub.o7g7hv4.mongodb.net/?retryWrites=true&w=majority"
 
-const MONGODB_URL = "mongodb://localhost:27017/";
+//const MONGODB_URL = "mongodb://localhost:27017/";
 
 const app = express();
 app.use(morgan("dev"));
@@ -62,7 +62,7 @@ app.use((error, req, res, next) => {
 socketConnection(io);
 
 mongoose
-  .connect(MONGODB_URL)
+  .connect(URL)
   .then((result) => {
     console.log("App is listening at port : 8080");
     console.log("Database is connected...");
