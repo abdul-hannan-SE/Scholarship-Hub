@@ -53,7 +53,7 @@ const Option1Form = () => {
     if (programImg) {
       apiData.append("programImg", programImg);
     }
-    const url = "http://localhost:8080/admin/program";
+    const url = "https://scholarship-hub-6dgc-7kkgek6tx-abdul-hannan-ses-projects.vercel.app/admin/program";
     fetch(url, {
       method: "POST",
       body: apiData,
