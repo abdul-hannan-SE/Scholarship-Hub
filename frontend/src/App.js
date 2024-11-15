@@ -69,7 +69,7 @@ const router = createBrowserRouter([
 function App() {
 
   const socketRef = useRef();
- socketRef.current = io('http://localhost:8080' , {
+ socketRef.current = io('https://scholarship-hub-6dgc-7kkgek6tx-abdul-hannan-ses-projects.vercel.app' , {
   transports: ["websocket"]
  });
 
