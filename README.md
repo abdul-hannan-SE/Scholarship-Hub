@@ -98,14 +98,8 @@ Contributions are welcome!
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
-
----
-
 ## 📬 Contact
 
 👤 **Abdul Hannan**
 GitHub: [@abdul-hannan-SE](https://github.com/abdul-hannan-SE)
-Email: *(add your email here)*
+Email: *contact.hannan100@gmail.com*
