@@ -6,7 +6,7 @@ Scholarship Hub is a **MERN-based full-stack web application** that centralizes 
 
 ## 🚀 Live Demo
 
-If deployed, add link here → [Scholarship Hub Live](https://scholarship-hub-seven.vercel.app)
+ Click → [Scholarship Hub Live](https://scholarship-hub-seven.vercel.app)
 
 ---
 
